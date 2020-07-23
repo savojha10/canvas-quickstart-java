@@ -12,7 +12,7 @@ Dashboard
     
    <c:if test="${canvasRequest.context.userContext.email == 'dbakulbhai@deloitte.com'}" >
       <tr>
-           <img width="550" height="300" src='<c:url value="https://public.datapine.com/#board/BEvk2o05h1cnC8mLVXJRQT.png"></c:url>' />    
+           <img width="550" height="300" src='<c:url value="https://www.simplekpi.com/Content/Images/KPIDashboardExamples/saas-dashboard.jpg"></c:url>' />    
       </tr>
     </c:if>
     
