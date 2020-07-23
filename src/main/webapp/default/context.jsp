@@ -53,5 +53,14 @@ Below is user information:
         <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.Id}</b></td>
       </tr>
     </c:if>
-    
+    <c:choose>
+    <c:when ${canvasRequest.context.userContext.firstName}= "Savita">
+        pizza. 
+        <br />
+    </c:when>    
+    <c:otherwise>
+        pizzas. 
+        <br />
+    </c:otherwise>
+</c:choose>
 </table>
