@@ -32,7 +32,7 @@ Below is user information:
       <td width="30%"><b>First Name: </b></td>
       <td><span id='firstname'>${canvasRequest.context.userContext.firstName}</span></td>
     </tr>
-    <c:set var="name" scope="application" value=${canvasRequest.context.userContext.firstName}/>
+    <c:set var="name" scope="application" value="${canvasRequest.context.userContext.firstName}"/>
 
     <tr>
       <td><b>Last Name: </b></td>
@@ -56,7 +56,7 @@ Below is user information:
       </tr>
     </c:if>
     
-    <c:if test="${!empty (canvasRequest.context.userContext.firstName).equals(name) }" >
+    <c:if test="${!empty (canvasRequest.context.userContext.firstName) == 'Savita') }" >
       <tr>
             HERE
         </tr>
