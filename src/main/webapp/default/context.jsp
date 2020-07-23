@@ -56,7 +56,7 @@ Below is user information:
       </tr>
     </c:if>
     
-    <c:if test="${!empty name == 'Savita') }" >
+    <c:if test="${name == 'Savita') }" >
       <tr>
             HERE
         </tr>
