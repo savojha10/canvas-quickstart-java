@@ -61,18 +61,18 @@ POSSIBILITY OF SUCH DAMAGE.
     <div id="content">
         <div id="header">
             <h1>Hello <span id='fullname'>${canvasRequest.context.userContext.fullName}</span>!</h1>
-            <h2>Welcome to the Force.com Canvas Java Quick Start Template!</h2>
+            <h2>Welcome!</h2>
         </div>
 
-        <div class="tab-box">
+     <!--   <div class="tab-box">
             <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Context</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Resize</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="events">Events</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="scroll">Scrolling</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="api">Api</a>
-        </div>
+        </div> -->
 
-        <div class="tabcontent paddingAll" id="context-1">
+     <!--   <div class="tabcontent paddingAll" id="context-1">
             <jsp:include page="context.jsp"/>
         </div>
 
@@ -97,7 +97,7 @@ POSSIBILITY OF SUCH DAMAGE.
             <div id="footerright">
                 <p>Salesforce: <a title="Safe Harbor" href="http://www.salesforce.com/company/investor/safe_harbor.jsp"><strong>SafeHarbor</strong></a>
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
