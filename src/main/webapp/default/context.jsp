@@ -52,7 +52,7 @@ Below is user information:
     </tr>
     <c:if test="${canvasRequest.context.userContext.email == 'savojha@deloitte.com'}" >
       <tr>
-           <img src='<c:url value="https://cdn.syncfusion.com/boldbi/solutions/sales-performance-dashboard.png""></c:url>' />    
+           <img src='<c:url value="https://cdn.syncfusion.com/boldbi/solutions/sales-performance-dashboard.png"></c:url>' />    
       </tr>
     </c:if>
     
