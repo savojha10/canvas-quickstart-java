@@ -54,8 +54,8 @@ Below is user information:
       </tr>
     </c:if>
     <c:choose>
-   <c:when Savita="${canvasRequest.context.userContext.firstName}= "Savita"">pizza.</c:when> <!-- if condition -->
-   <c:when Pranav="${canvasRequest.context.userContext.firstName}= "Savita"">burger.</c:when> <!-- if condition -->
+   <c:when "Savita" = "${canvasRequest.context.userContext.firstName}">pizza.</c:when> <!-- if condition -->
+   <c:when Pranav="${canvasRequest.context.userContext.firstName}">burger.</c:when> <!-- if condition -->
    <c:otherwise>pizzas</c:otherwise>    <!-- else condition -->
 </c:choose>
     
