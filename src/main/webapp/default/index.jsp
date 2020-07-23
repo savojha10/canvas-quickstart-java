@@ -64,6 +64,12 @@ POSSIBILITY OF SUCH DAMAGE.
             <h2>Welcome!</h2>
         </div>
 
+	     <% if (${canvasRequest.context.userContext.fullName} == "Savita Ojha") { %>
+         <p> Today is weekend</p>
+     		 <% } else { %>
+        	 <p> Today is not weekend</p>
+      		<% } %>
+	    
      <!--   <div class="tab-box">
             <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Context</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Resize</a>
