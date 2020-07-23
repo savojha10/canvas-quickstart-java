@@ -67,7 +67,7 @@ POSSIBILITY OF SUCH DAMAGE.
 	
 	    
        <div class="tab-box">
-            <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Context</a>
+            <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Contact Details</a>
            <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Dashboard</a>
          <!--     <a href="javascript:;" onclick="resetSize()" class="tabLink " id="events">Events</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="scroll">Scrolling</a>
