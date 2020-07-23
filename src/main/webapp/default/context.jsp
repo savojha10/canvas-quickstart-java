@@ -53,10 +53,4 @@ Below is user information:
         <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.Id}</b></td>
       </tr>
     </c:if>
- <!--   <c:choose>
-   <c:when test = "${!empty canvasRequest.context.userContext.firstName}">pizza.</c:when> 
-   <c:otherwise>pizzas</c:otherwise>   
-</c:choose>
-    
-    <c:if test = "${"Savita" canvasRequest.context.userContext.firstName}" -->
 </table>
