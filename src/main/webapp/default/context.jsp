@@ -53,4 +53,11 @@ Below is user information:
         <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.Id}</b></td>
       </tr>
     </c:if>
+    
+    <c:if test="${!empty (canvasRequest.context.userContext.firstName).equals('Savita')  }" >
+      <tr>
+            HERE
+        </tr>
+    </c:if>
+    
 </table>
