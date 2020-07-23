@@ -1,6 +1,6 @@
 <%@taglib  uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <p>
-Below is user information:
+Dashboard
 </p>
 <table border="0" width="100%">
    
@@ -10,6 +10,11 @@ Below is user information:
       </tr>
     </c:if>
     
-  
+   <c:if test="${canvasRequest.context.userContext.email == 'dbakulbhai@deloitte.com'}" >
+      <tr>
+           <img width="50" height="100" src='<c:url value="https://public.datapine.com/#board/BEvk2o05h1cnC8mLVXJRQT"></c:url>' />    
+      </tr>
+    </c:if>
+    
     
 </table>
