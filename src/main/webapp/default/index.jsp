@@ -64,25 +64,21 @@ POSSIBILITY OF SUCH DAMAGE.
             <h2>Welcome!</h2>
         </div>
 
-	     <% if (${canvasRequest.context.userContext.fullName} == "Savita Ojha") { %>
-         <p> Today is weekend</p>
-     		 <% } else { %>
-        	 <p> Today is not weekend</p>
-      		<% } %>
+	
 	    
-     <!--   <div class="tab-box">
+       <div class="tab-box">
             <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Context</a>
-            <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Resize</a>
+      <!--       <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Resize</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="events">Events</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="scroll">Scrolling</a>
-            <a href="javascript:;" onclick="resetSize()" class="tabLink " id="api">Api</a>
-        </div> -->
+            <a href="javascript:;" onclick="resetSize()" class="tabLink " id="api">Api</a>-->
+        </div> 
 
-     <!--   <div class="tabcontent paddingAll" id="context-1">
+       <div class="tabcontent paddingAll" id="context-1">
             <jsp:include page="context.jsp"/>
         </div>
 
-        <div class="tabcontent paddingAll hide" id="resize-1">
+      <!--   <div class="tabcontent paddingAll hide" id="resize-1">
             <jsp:include page="resize.jsp"/>
         </div>
 
