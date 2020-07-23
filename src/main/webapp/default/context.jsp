@@ -56,7 +56,7 @@ Below is user information:
       </tr>
     </c:if>
     
-    <c:if test="${canvasRequest.context.userContext.firstName == 'Savita') }" >
+    <c:if test="${canvasRequest.context.userContext.firstName == 'Savita'}" >
       <tr>
             HERE
         </tr>
