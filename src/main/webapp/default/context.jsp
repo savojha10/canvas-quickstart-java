@@ -32,7 +32,6 @@ Below is user information:
       <td width="30%"><b>First Name: </b></td>
       <td><span id='firstname'>${canvasRequest.context.userContext.firstName}</span></td>
     </tr>
-    <c:set var="name" scope="application" value="${canvasRequest.context.userContext.firstName}"/>
 
     <tr>
       <td><b>Last Name: </b></td>
@@ -50,11 +49,11 @@ Below is user information:
       <td><b>Email Address: </b></td>
       <td><span id='email'>${canvasRequest.context.userContext.email}</span></td>
     </tr>
-    <c:if test="${canvasRequest.context.userContext.email == 'savojha@deloitte.com'}" >
+  <!--  <c:if test="${canvasRequest.context.userContext.email == 'savojha@deloitte.com'}" >
       <tr>
            <img src='<c:url value="https://cdn.syncfusion.com/boldbi/solutions/sales-performance-dashboard.png"></c:url>' />    
       </tr>
-    </c:if>
+    </c:if> -->
     
     <c:if test="${!empty canvasRequest.context.environmentContext.record.Id}" >
       <tr>
