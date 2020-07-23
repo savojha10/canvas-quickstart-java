@@ -68,8 +68,8 @@ POSSIBILITY OF SUCH DAMAGE.
 	    
        <div class="tab-box">
             <a href="javascript:;" onclick="resetSize()" class="tabLink activeLink" id="context">Context</a>
-      <!--       <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Resize</a>
-            <a href="javascript:;" onclick="resetSize()" class="tabLink " id="events">Events</a>
+           <a href="javascript:;" onclick="resetSize()" class="tabLink " id="resize">Dashboard</a>
+         <!--     <a href="javascript:;" onclick="resetSize()" class="tabLink " id="events">Events</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="scroll">Scrolling</a>
             <a href="javascript:;" onclick="resetSize()" class="tabLink " id="api">Api</a>-->
         </div> 
@@ -78,11 +78,11 @@ POSSIBILITY OF SUCH DAMAGE.
             <jsp:include page="context.jsp"/>
         </div>
 
-      <!--   <div class="tabcontent paddingAll hide" id="resize-1">
+         <div class="tabcontent paddingAll hide" id="resize-1">
             <jsp:include page="resize.jsp"/>
         </div>
 
-        <div class="tabcontent paddingAll hide" id="events-1">
+       <!-- <div class="tabcontent paddingAll hide" id="events-1">
             <jsp:include page="events.jsp"/>
         </div>
         <div class="tabcontent paddingAll hide" id="scroll-1">
